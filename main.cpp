@@ -34,7 +34,6 @@ bool KMPSearch(string text, string pattern){
             q=q+1;
         }
         if(q==m){
-            cout<< "Pattern occurs at index: "<<i-m+1<<endl;
             q=prefix[q-1];
             return true;
         }
